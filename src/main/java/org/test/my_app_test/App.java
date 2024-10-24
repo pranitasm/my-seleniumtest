@@ -26,7 +26,7 @@ public class App {
        // WebDriver driver = new ChromeDriver();
         
         ChromeOptions options = new ChromeOptions();
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         WebDriver driver = new ChromeDriver(options);
         
         driver.get("http://3.15.39.238:8081/contact.html");
